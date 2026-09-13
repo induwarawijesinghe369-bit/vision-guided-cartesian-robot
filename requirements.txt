@@ -1,0 +1,10 @@
+# Vision
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Serial comms
+pyserial>=3.5
+
+# Utilities
+pyyaml>=6.0
