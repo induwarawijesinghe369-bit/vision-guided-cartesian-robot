@@ -64,6 +64,18 @@ More detail will be added in `docs/architecture.md`.
 
 ---
 
+## 🧠 Vision Model
+
+Custom-trained **YOLOv8** model detecting **9 object classes**:
+
+- **Shapes:** square, circle, hexagon
+- **Colors:** red, green, blue
+- **Total combinations:** 3 × 3 = 9 classes
+
+Full details in [`src/vision/README.md`](src/vision/README.md).
+
+📦 **Trained weights:** *(available on request — will be attached as a GitHub Release)*
+
 ## 🚀 Getting Started
 
 Instructions for the Raspberry Pi pipeline and Arduino firmware are in [`docs/`](docs/).
