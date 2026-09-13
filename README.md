@@ -66,7 +66,10 @@ More detail will be added in `docs/architecture.md`.
 
 ## 🚀 Getting Started
 
-Coming soon — instructions for running the vision pipeline and uploading the Arduino firmware.
+Instructions for the Raspberry Pi pipeline and Arduino firmware are in [`docs/`](docs/).
+
+### Note on the vision model
+The YOLOv8 detection pipeline is described in [`src/vision/`](src/vision/) and the coordinate-transform logic is documented in [`docs/architecture.md`](docs/architecture.md). The trained `.pt` weights are **not committed to this repository** — they will be retrained and re-added (see Roadmap). Anyone cloning this repo should train their own model on the target objects, or swap in a pretrained YOLOv8 checkpoint from Ultralytics as a starting point.
 
 ---
 
@@ -87,16 +90,18 @@ vision-guided-cartesian-robot/
 
 ## 🗺️ Roadmap
 
+## 🗺️ Roadmap
+
 - [x] Mechanical frame design and fabrication
 - [x] Stepper motor control via A4988
-- [x] YOLOv8 detection pipeline
+- [x] YOLOv8 detection pipeline (initial version)
 - [x] Coordinate mapping pixel → robot space
 - [x] Serial communication Pi ↔ Arduino
 - [x] Web interface
+- [ ] Retrain YOLOv8 model on current target objects and commit weights
 - [ ] Full closed-loop pick-and-place demo
 - [ ] Gripper upgrade
 - [ ] Demo video
-
 ---
 
 ## 👤 Author
