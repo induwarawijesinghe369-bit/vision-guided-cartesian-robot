@@ -36,9 +36,9 @@ More detail will be added in `docs/architecture.md`.
 | Component | Purpose |
 |---|---|
 | Raspberry Pi | Vision processing, high-level control |
-| Arduino (Uno/Nano) | Real-time stepper control |
-| A4988 stepper drivers × 3 | Drive X, Y, Z motors |
-| NEMA 17 stepper motors × 3 | Axis motion |
+| Arduino (Uno) | Real-time stepper control |
+| A4988 stepper drivers × 2 | Drive X, Y |
+| NEMA 17 stepper motors × 2 | Axis motion |
 | Pi Camera / USB camera | Object detection |
 | 12V PSU | Motor power |
 | Linear rails, belts, bearings | Mechanical motion |
