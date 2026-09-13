@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# Arduino
+build/
+*.hex
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights (large files)
+*.pt
+*.onnx
+*.weights
+
+# CAD binaries (keep STEP/STL, ignore large SLDPRT/SLDASM)
+*.SLDPRT
+*.SLDASM
