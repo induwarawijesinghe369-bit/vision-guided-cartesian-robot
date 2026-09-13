@@ -85,6 +85,34 @@ vision-guided-cartesian-robot/
 ├── cad/ # SolidWorks / STEP files
 └── images/ # photos, screenshots, diagrams
 
+## 📷 Media
+
+### Demo video
+
+▶️ **[Watch the robot pick and place →](PASTE_YOUR_VIDEO_LINK_HERE)**
+
+### Assembled robot
+
+![Assembled robot](images/robot-overview.jpg)
+
+### Vision system in action
+
+![YOLOv8 detection](images/detection.png)
+
+*YOLOv8 detecting and classifying the 9 target objects (square / circle / hexagon in red / green / blue).*
+
+### Gantry and drive system
+
+![Gantry closeup](images/gantry-closeup.jpg)
+
+### Electronics
+
+![Wiring](images/wiring.jpg)
+
+### Web interface
+
+![Web UI](images/web-ui.png)
+
 
 ---
 
