@@ -99,9 +99,9 @@ vision-guided-cartesian-robot/
 
 ## 📷 Media
 
-### Demo video
+### 🎬 Demo video
 
-▶️ **[Watch the robot pick and place →](PASTE_YOUR_VIDEO_LINK_HERE)**
+▶️ **[Watch the robot pick and place objects](https://github.com/induwarawijesinghe369-bit/vision-guided-cartesian-robot/releases/download/v1.0-demo/WhatsApp.Video.2026-09-14.at.7.50.41.AM.mp4)**
 
 ### Assembled robot
 
@@ -111,19 +111,7 @@ vision-guided-cartesian-robot/
 
 ![YOLOv8 detection](images/detection.png)
 
-*YOLOv8 detecting and classifying the 9 target objects (square / circle / hexagon in red / green / blue).*
-
-### Gantry and drive system
-
-![Gantry closeup](images/gantry-closeup.jpg)
-
-### Electronics
-
-![Wiring](images/wiring.jpg)
-
-### Web interface
-
-![Web UI](images/web-ui.png)
+*YOLOv8 detecting the 9 target objects (square / circle / hexagon × red / green / blue).*
 
 
 ---
